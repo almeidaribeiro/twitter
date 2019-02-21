@@ -4,7 +4,9 @@ body{
 }
 
 .top{
-  background-color: #E6E6FA;
+	margin: 0px;
+	background-color: #E6E6FA;
+	width: 100%;
   padding: 25px;
   height: 5px;
   position: relative;
@@ -30,13 +32,14 @@ body{
   height: 25px;
   position: absolute;
   top: 15px;
-  left: 1260px;
+  left: 1160px;
 }
 
-.imgCover{ 
-  background-color: #F5F5F5; 
+.imgCover{  
   padding: 0px;
-  text-align: center; 
+	text-align: center; 
+	position: relative;
+	left: 32px;
 }
 
 .profile{
@@ -51,7 +54,7 @@ body{
   width: 430px;
   position: absolute;
   top: 450px;
-  left: 112px;
+  left: 68px;
 }
 
 .imgProfile{
@@ -102,11 +105,11 @@ body{
   text-align: right;
   border-radius: 15px;
   height: auto;
-  width: 800px; 
+  width: 750px; 
   resize: none;    
   position: absolute;
   top: 450px;
-  left: 590px;
+  left: 600px;
 }
 
 .textArea{
