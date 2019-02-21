@@ -1,0 +1,148 @@
+body{
+    margin: 0%;
+    background-color: #FFE4E1;
+}
+
+.top{
+    background-color: #E6E6FA;
+    padding: 25px;
+    height: 5px;
+    position: relative;
+    
+}
+
+.fas{
+    color: #00BFFF;
+    display: block;
+    position: relative;
+    width: 90px;
+    left: 90px;
+
+}
+
+.fab{
+    color: #00BFFF;
+    display: block;
+    position: relative;
+    width: 90px;
+   
+    left: 90px;
+}
+
+.imgTwitter{
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    left: 1260px;
+}
+
+
+.imgCover{ 
+    background-color: #F5F5F5; 
+    padding: 0px;
+    text-align: center; 
+
+}
+
+.profile{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: left;
+	font-size: 20px;
+    background-color: #E6E6FA;
+    border-radius: 15px;
+    height: 630px;
+    width: 430px;
+    position: absolute;
+    top: 450px;
+    left: 112px;
+    
+}
+
+.imgProfile{
+    margin: 15px;    
+    border: 10px solid;
+    border-color: #DDA0DD;
+    border-radius: 100px;
+    position: relative;
+    top: 2px;
+    left: 60px; 
+}
+
+.imgRabbit{
+    height: 40px;
+    bottom: 68px;
+    left: 200px;
+    position: relative;
+}
+
+.textProfile1{
+    position: relative;
+    left: 30px; 
+}	
+
+.text{
+    background-color: #E6E6FA;
+    text-align: right;
+    border-radius: 15px;
+    height: auto;
+    width: 800px; 
+    resize: none;    
+    position: absolute;
+    top: 450px;
+    left: 590px;
+    
+
+}
+
+.textArea{
+    height: 80px;
+    width: 430px;
+    margin: 15px;
+    border-radius: 15px;
+    overflow: hidden;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    right: 150px; 
+    
+}
+
+#button{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #DDA0DD;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+	font-size: 20px;
+    position: relative;
+    right: 120px;
+    bottom: 30px;
+    
+}
+
+#counter{
+    padding: 6px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 20px;
+    position: relative;
+    right: 275px;
+    bottom: 20px;
+}
+
+.result{
+    background-color: #E6E6FA;
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+	font-size: 20px;
+    border-radius: 15px;
+    height: auto;
+    width: 820px;
+    position: relative;
+    top: 340px;
+    left: 590px;
+    
+}

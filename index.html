@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Twitter</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+    <header class="top">
+      <i class="fas fa-home"></i>
+      <i class="fas fa-bolt"></i>
+      <i class="fas fa-bell"></i>
+      <i class="fas fa-envelope"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fas fa-search"></i>
+    
+      <img  class="imgTwitter" src="img/twitter.png" alt="nome">
+    </header>
+
+      <section class="imgCover">
+          <img class="cover" src="img/cover6.png" alt="capa">
+
+      </section>
+
+      <section class="profile">
+      
+        <img class="imgProfile" src="img/perfil.png" alt="perfil">
+
+        <div class="textProfile1">
+        <h2>Usagi Tsukino</h2>
+        <img  class="imgRabbit" src="img/rabbit.png" alt="coelho">
+        <p>@sailormoon</p>
+        </div>
+      </section>
+
+		  <form class="text" onsubmit = event.preventDefault()>
+		  		<textarea class="textArea" rows="8" cols="60" id = "messageArea" name="message" placeholder="O que está acontecendo?" ></textarea>
+         
+          <input id="button" type="submit"  name="tweetar" value="Tweetar" disabled>
+          <div  id="counter"> 140 </div>
+      
+		  	</form>
+
+      
+      <section class="result">
+		    <p id ="result"> </p>
+      </section>
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
