@@ -1,148 +1,167 @@
 body{
-    margin: 0%;
-    background-color: #FFE4E1;
+  margin: 0%;
+  background-color: #FFE4E1;
 }
 
 .top{
-    background-color: #E6E6FA;
-    padding: 25px;
-    height: 5px;
-    position: relative;
-    
+  background-color: #E6E6FA;
+  padding: 25px;
+  height: 5px;
+  position: relative;
 }
 
 .fas{
-    color: #00BFFF;
-    display: block;
-    position: relative;
-    width: 90px;
-    left: 90px;
-
+  color: #00BFFF;
+  display: block;
+  position: relative;
+  width: 90px;
+  left: 90px;
 }
 
 .fab{
-    color: #00BFFF;
-    display: block;
-    position: relative;
-    width: 90px;
-   
-    left: 90px;
+  color: #00BFFF;
+  display: block;
+  position: relative;
+  width: 90px;
+  left: 90px;
 }
 
 .imgTwitter{
-    height: 25px;
-    position: absolute;
-    top: 15px;
-    left: 1260px;
+  height: 25px;
+  position: absolute;
+  top: 15px;
+  left: 1260px;
 }
 
-
 .imgCover{ 
-    background-color: #F5F5F5; 
-    padding: 0px;
-    text-align: center; 
-
+  background-color: #F5F5F5; 
+  padding: 0px;
+  text-align: center; 
 }
 
 .profile{
-    text-align: center;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    text-align: left;
+  text-align: center;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  text-align: left;
 	font-size: 20px;
-    background-color: #E6E6FA;
-    border-radius: 15px;
-    height: 630px;
-    width: 430px;
-    position: absolute;
-    top: 450px;
-    left: 112px;
-    
+  background-color: #E6E6FA;
+  border-radius: 15px;
+  height: 480px;
+  width: 430px;
+  position: absolute;
+  top: 450px;
+  left: 112px;
 }
 
 .imgProfile{
-    margin: 15px;    
-    border: 10px solid;
-    border-color: #DDA0DD;
-    border-radius: 100px;
-    position: relative;
-    top: 2px;
-    left: 60px; 
+  margin: 15px;    
+  border: 10px solid;
+  border-color: #DDA0DD;
+  border-radius: 100px;
+  position: relative;
+  top: 2px;
+  left: 60px; 
 }
 
 .imgRabbit{
-    height: 40px;
-    bottom: 68px;
-    left: 200px;
-    position: relative;
+  height: 40px;
+  bottom: 68px;
+  left: 200px;
+  position: relative;
 }
 
-.textProfile1{
-    position: relative;
-    left: 30px; 
+.textProfile{
+  padding: 10px;
+  position: relative;
+  left: 20px; 
+  bottom: 30px;
 }	
 
-.text{
-    background-color: #E6E6FA;
-    text-align: right;
-    border-radius: 15px;
-    height: auto;
-    width: 800px; 
-    resize: none;    
-    position: absolute;
-    top: 450px;
-    left: 590px;
-    
+.textProfile p{
+  position: relative;
+  left: 2px; 
+  bottom: 90px;
+}
 
+.subject{
+  padding: 2px;
+  position: relative;
+  left: 2px; 
+  bottom: 110px;
+}
+
+.subject p {
+  position: relative;
+  left: 2px; 
+  bottom: 20px;
+}
+
+.text{
+  background-color: #E6E6FA;
+  text-align: right;
+  border-radius: 15px;
+  height: auto;
+  width: 800px; 
+  resize: none;    
+  position: absolute;
+  top: 450px;
+  left: 590px;
 }
 
 .textArea{
-    height: 80px;
-    width: 430px;
-    margin: 15px;
-    border-radius: 15px;
-    overflow: hidden;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    font-size: 20px;
-    position: relative;
-    top: 2px;
-    right: 150px; 
-    
+  height: 80px;
+  width: 430px;
+  margin: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 20px;
+  position: relative;
+  top: 2px;
+  right: 110px; 
 }
 
 #button{
-    height: 50px;
-    width: 100px;
-    border-radius: 15px;
-    margin: 5px;
-    background-color: #DDA0DD;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+  margin: 5px;
+  background-color: #DDA0DD;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 	font-size: 20px;
-    position: relative;
-    right: 120px;
-    bottom: 30px;
-    
+  position: relative;
+  right: 120px;
+  bottom: 30px;
 }
 
 #counter{
-    padding: 6px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    font-size: 20px;
-    position: relative;
-    right: 275px;
-    bottom: 20px;
+  padding: 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 20px;
+  position: relative;
+  right: 235px;
+  bottom: 20px;
 }
 
 .result{
-    background-color: #E6E6FA;
-    text-align: left;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  background-color: #E6E6FA;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 	font-size: 20px;
-    border-radius: 15px;
-    height: auto;
-    width: 820px;
-    position: relative;
-    top: 340px;
-    left: 590px;
-    
+  border-radius: 15px;
+  height: auto;
+  width: 810px;
+  margin: 30px;
+  position: relative;
+  top: 240px;
+	left: 560px;
+	word-wrap: break-word;
+}
+
+#result p{
+	padding: 20px;
+  border: 3px solid #DDA0DD;
+	border-radius: 15px;
+	word-wrap: break-word;
 }
