@@ -3,6 +3,11 @@ body{
   background-color: #FFE4E1;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+
 .top{
 	margin: 0px;
 	background-color: #E6E6FA;
@@ -35,11 +40,20 @@ body{
   left: 1160px;
 }
 
-.imgCover{  
+.imgCover{
+  background-color: #e0e8e8;  
   padding: 0px;
 	text-align: center; 
 	position: relative;
-	left: 32px;
+	/* left: 32px; */
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start ;
 }
 
 .profile{
@@ -47,37 +61,37 @@ body{
   color: black;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   text-align: left;
-	font-size: 20px;
+	font-size: 18px;
   background-color: #E6E6FA;
   border-radius: 15px;
-  height: 480px;
-  width: 430px;
+  width: 400px;
+  /* height: 480px;
   position: absolute;
   top: 450px;
-  left: 68px;
+  left: 68px; */
 }
 
 .imgProfile{
-  margin: 15px;    
+  margin: 10px;    
   border: 10px solid;
   border-color: #DDA0DD;
   border-radius: 100px;
-  position: relative;
   top: 2px;
-  left: 60px; 
+  left: 50px;
+  position: relative;
 }
 
 .imgRabbit{
   height: 40px;
   bottom: 68px;
-  left: 200px;
+  left: 250px;
   position: relative;
 }
 
 .textProfile{
-  padding: 10px;
+  padding: 20px;
   position: relative;
-  left: 20px; 
+  left: 60px; 
   bottom: 30px;
 }	
 
@@ -107,9 +121,9 @@ body{
   height: auto;
   width: 750px; 
   resize: none;    
-  position: absolute;
+  /* position: absolute;
   top: 450px;
-  left: 600px;
+  left: 600px; */
 }
 
 .textArea{
@@ -120,9 +134,9 @@ body{
   overflow: hidden;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   font-size: 20px;
-  position: relative;
+  /* position: relative;
   top: 2px;
-  right: 110px; 
+  right: 110px;  */
 }
 
 #button{
@@ -135,6 +149,7 @@ body{
 	font-size: 20px;
   position: relative;
   right: 120px;
+  top: 20px;
   bottom: 30px;
 }
 
@@ -154,17 +169,19 @@ body{
 	font-size: 20px;
   border-radius: 15px;
   height: auto;
-  width: 810px;
+  width: 755px;
   margin: 30px;
   position: relative;
-  top: 240px;
-	left: 560px;
-	word-wrap: break-word;
+  bottom: 350px;
+  left: 260px;
 }
 
 #result p{
-	padding: 20px;
+  padding: 20px;
   border: 3px solid #DDA0DD;
 	border-radius: 15px;
-	word-wrap: break-word;
+  word-wrap: break-word;
 }
+
+/* flex box: div mae: dysplay flex, flex direction, align itens , os elementos dentro 
+outra div, disply flex, justify content:space   */
