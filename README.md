@@ -1,6 +1,5 @@
 ## Réplica do Twitter
-
-![twitter-page](https://user-images.githubusercontent.com/46823142/60930964-2a491880-a28e-11e9-8da0-83fb2ef4cad9.png)
+![twitter-pg](https://user-images.githubusercontent.com/46823142/60931069-ac394180-a28e-11e9-95bf-830726bad26a.png)
 
 https://almeidaribeiro.github.io/twitter/
 
