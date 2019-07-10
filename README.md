@@ -1,4 +1,4 @@
-## Twitter
+## Réplica do Twitter
 
 Desafio apresentado ao Bootcamp da Laboratória em Fevereiro de 2019. 
 

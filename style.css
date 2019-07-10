@@ -7,7 +7,6 @@ body{
   box-sizing: border-box;
 }
 
-
 .top{
 	margin: 0px;
 	background-color: #E6E6FA;
@@ -33,19 +32,18 @@ body{
   left: 90px;
 }
 
-.imgTwitter{
+.img-twitter{
   height: 25px;
   position: absolute;
   top: 15px;
   left: 1160px;
 }
 
-.imgCover{
+.img-cover{
   background-color: #e0e8e8;  
   padding: 0px;
 	text-align: center; 
 	position: relative;
-	/* left: 32px; */
 }
 
 .content{
@@ -65,13 +63,9 @@ body{
   background-color: #E6E6FA;
   border-radius: 15px;
   width: 400px;
-  /* height: 480px;
-  position: absolute;
-  top: 450px;
-  left: 68px; */
 }
 
-.imgProfile{
+.img-profile{
   margin: 10px;    
   border: 10px solid;
   border-color: #DDA0DD;
@@ -81,21 +75,21 @@ body{
   position: relative;
 }
 
-.imgRabbit{
+.img-rabbit{
   height: 40px;
   bottom: 68px;
   left: 250px;
   position: relative;
 }
 
-.textProfile{
+.text-profile{
   padding: 20px;
   position: relative;
   left: 60px; 
   bottom: 30px;
 }	
 
-.textProfile p{
+.text-profile p{
   position: relative;
   left: 2px; 
   bottom: 90px;
@@ -121,12 +115,9 @@ body{
   height: auto;
   width: 750px; 
   resize: none;    
-  /* position: absolute;
-  top: 450px;
-  left: 600px; */
 }
 
-.textArea{
+.text-area{
   height: 80px;
   width: 430px;
   margin: 15px;
@@ -134,9 +125,6 @@ body{
   overflow: hidden;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   font-size: 20px;
-  /* position: relative;
-  top: 2px;
-  right: 110px;  */
 }
 
 #button{
@@ -183,5 +171,3 @@ body{
   word-wrap: break-word;
 }
 
-/* flex box: div mae: dysplay flex, flex direction, align itens , os elementos dentro 
-outra div, disply flex, justify content:space   */
